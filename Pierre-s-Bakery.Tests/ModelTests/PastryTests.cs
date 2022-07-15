@@ -17,5 +17,14 @@ namespace Pastry.Tests
       PastryOrders pastryOrder = new PastryOrders(pastryQuantity);
       Assert.AreEqual(pastryCost, pastryOrder.PastryCost());
     }
+
+        [TestMethod]
+    public void PastryCost_Cost3PastryNoDiscount_int()
+    {
+      int pastryQuantity = 3;
+      int pastryCost = 5;
+      PastryOrders pastryOrder = new PastryOrders(pastryQuantity);
+      Assert.AreEqual(pastryCost, pastryOrder.PastryCost());
+    }
   }
 }
