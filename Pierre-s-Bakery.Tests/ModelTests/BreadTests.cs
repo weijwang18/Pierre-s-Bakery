@@ -1,7 +1,9 @@
+using System;
+using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Bakery.Models;
+using Bread.Models;
 
-namespace Bakery.Tests
+namespace Bread.Tests
 {
   [TestClass]
   public class BreadTests
@@ -19,8 +21,8 @@ namespace Bakery.Tests
     [TestMethod]
     public void BreadCost_CostThreeBreadWithDiscount_int()
     {
-      int breadQuantity = 9;
-      int breadCost = 30;
+      int breadQuantity = 3;
+      int breadCost = 10;
       Bread breadOrder = new Bread(breadQuantity);
       Assert.AreEqual(breadCost, breadOrder.BreadCost());
     }
