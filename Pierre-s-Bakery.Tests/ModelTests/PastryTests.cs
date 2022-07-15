@@ -14,7 +14,7 @@ namespace Pastry.Tests
     {
       int pastryQuantity = 1;
       int pastryCost = 2;
-      Pastry pastryOrder = new Pastry(pastryQuantity);
+      PastryOrders pastryOrder = new PastryOrders(pastryQuantity);
       Assert.AreEqual(pastryCost, pastryOrder.PastryCost());
     }
   }

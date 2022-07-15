@@ -14,7 +14,7 @@ namespace Bread.Tests
     {
       int breadQuantity = 1;
       int breadCost = 5;
-      Bread breadOrder = new Bread(breadQuantity);
+      BreadOrders breadOrder = new BreadOrders(breadQuantity);
       Assert.AreEqual(breadCost, breadOrder.BreadCost());
     }
 
@@ -23,7 +23,7 @@ namespace Bread.Tests
     {
       int breadQuantity = 3;
       int breadCost = 10;
-      Bread breadOrder = new Bread(breadQuantity);
+      BreadOrders breadOrder = new BreadOrders(breadQuantity);
       Assert.AreEqual(breadCost, breadOrder.BreadCost());
     }
   }
