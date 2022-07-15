@@ -8,7 +8,7 @@ namespace Bakery.Tests
   {
     // Test methods go here
     [TestMethod]
-    public void BreadCost_CostOneBreadNoDiscount_Int()
+    public void BreadCost_CostOneBreadNoDiscount_double()
     {
       int breadQuantity = 1;
       double breadCost = 5;
