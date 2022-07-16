@@ -1,31 +1,31 @@
 # Pierre-s-Bakery 
 
-#### This is a C# console application for a bakery.
+#### This is a console application for a bakery.
 
 #### By Winnie Wang
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* C#
+* Markdown
+* MS Test
+* NET 5.0
 
 ## Description
 
+This application allows the user to input the amount of bread or pastries they would like to buy. Once the user makes their selection, the application will return the total cost of the order.
+ 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* Clone this project repository.
+* Open Git Bash if on Windows and terminal if on Mac.
+* Navigate to project directory.
+* Run this command $ dotnet restore
+* Run this command $ dotnet run
 
-## Known Bugs
-
-* _Any known issues_
-* _should go here_
 
 ## License
 
-## Contact Information
+**MIT**
+
+Copyright (c) 2022 **Winnie Wang** (weijwang18@gmail.com)
