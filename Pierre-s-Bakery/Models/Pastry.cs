@@ -22,9 +22,18 @@ namespace Pastry.Models
 
      public int PastryCost()
      {
-      int pastryCost = _Price * Quantity;
-      return pastryCost;
+        int pastryCost = 0;
+        if (Quantity % 3 == 0)
+        {
+          pastryCost += (Quantity / 3) * 5;
+        }
+        else 
+        {
+          int remainder = Quantity % 3;
+          pastryCost += (Quantity / 3) * 5 + remainder * _Price;
+        }
     // properties, constructors, methods, etc. go here
-    }
+      return pastryCost;
+      }
   }
 }
